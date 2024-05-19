@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color:white;
+}
+.container-{
+  background-color: rgb(78 55 151)
+}
+.logo {
+  max-width:min-content;
+  height: 3rem;
+  padding-right: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.navbar-left {
+  display: flex;
+  gap: 1em;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.navbar-left a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  padding-left: 2rem;
+}
+.navbar-right {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 3em;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: Next, cursive;
+  margin: 0;
+}
+.nav-list li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-list li a .logo {
+  height: 5rem;
+  max-width: 100%;
+  margin-right: 40px;
+}
+/* Style the video: 100% width and height to cover the entire window */
+
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: relative ;
+    top:280px;
+    color: #f1f1f1;
+    height: 670px;
+    padding: 20px;
+    text-align: center;
+    font-size: xx-large;  
+}
+  #myVideo {
+    position: static;
+    /* bottom: 0; */
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+  }
+
+  .number-ac{
+    margin-top: 10px;
+  }
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 30px;
+    background: #00acc7;
+    color: #fff;
+    font-size: xx-large;  
+  }
+  
+  #myBtn:hover {
+    background: #007587;
+    color: rgb(189, 189, 189);
+  }
+.headerContent{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.textcolor{
+color: rgb(0, 0, 0);
+}
+.h1BC1{
+  background-color: rgb(78, 55, 151);
+  color: white;
+  text-align: center;
+  
+}
+.h1BC{
+    text-align: center;
+    color: rgb(78, 55, 151);
+    margin-top: 0;
+}
+/* ========================================================================== */
+.containerBC{ /*  BOOTCAMP */
+background-color: #e3e3e3;
+height: 50vh;  
+margin-top: 10px; 
+padding: 10px;
+display: flex;
+justify-content: center;
+gap: 30px;
+
+}
+
+
+.BCcontent1 , .BCcontent2 , .BCcontent3{
+width: 25vw;
+height: 40vh;
+background-color: #f1f1f1;
+border-right: 10px solid rgb(174, 0, 255); 
+text-align: center;
+border-radius: 10px;
+box-shadow: 5px 5px 5px rgb(135, 135, 135); 
+
+}
+.start{
+  color:white;
+}
+h1{
+  color:rgb(78, 55, 151);
+}   
+
+h2{
+color: rgb(78, 55, 151);
+    }
+
+    #moreBC {
+        width: 200px;
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 30px;
+        background: #00acc700;
+        color: rgb(78, 55, 151);
+      }
+
+      .contentACBTON{
+        bottom: 0;
+        background: rgba(255, 0, 0, 0);
+        height: 670px;
+        padding: 20px;
+        text-align: center;
+        font-size: xx-large;
+
+    }
+    #moreBC:hover {
+        background: #580066;
+        color: rgb(189, 189, 189);
+      }
+
+      img{
+        height: 30%;
+      }
+/* ===================================================================================== */
+.h1AE{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+      .containerAC{            /* acadimy numbers */
+        background-color: white;
+        height: 50vh;  
+        margin-top: 10px; 
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        gap: 30px;
+
+        }
+        .ACcontent1 , .ACcontent2 , .ACcontent3{
+            width: 25vw;
+            height: 40vh;
+            background-color: #f1f1f1;
+            box-shadow: 5px 5px 5px rgb(135, 135, 135); 
+            text-align: center;
+            border-radius: 10px;
+            }
+             
+            
+            h2{
+            color:rgb(91 190 194);
+                }
+            
+                #moreAC {
+                    width: 200px;
+                    font-size: 18px;
+                    padding: 10px;
+                    border-radius: 30px;
+                    background: #00acc700;
+                    color: rgb(78, 55, 151);
+                  }
+            
+                  .contentACBTON{
+                    bottom: 0;
+                    background: rgba(255, 0, 0, 0);
+                    height: 670px;
+                    padding: 20px;
+                    text-align: center;
+                    font-size: xx-large;
+            
+                }
+                #moreAC:hover {
+                    background: rgb(78, 55, 151);
+                    color: rgb(189, 189, 189);
+                  } 
+
+
+/* =============================================================================== */
+
+.containerAE{            /* acadimy event */
+    background-color:rgb(78, 55, 151);;
+    height: 65vh;  
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 30px;
+
+
+    }
+    .AEcontent1 , .AEcontent2 , .AEcontent3 , .AEcontent4{
+        width: 17vw;
+        height: 60vh;
+        background-color: #f1f1f1;
+        text-align: center;
+        border-radius: 10px;
+        
+        }
+        
+                 
+        
+        .h2AE{
+        color: rgb(0, 228, 137); 
+            }
+        
+            #moreAE {
+                width: 200px;
+                font-size: 18px;
+                padding: 10px;
+                border-radius: 30px;
+                background: #00acc700;
+                background-color: #331d7f;
+                color: #ffffff;
+
+              }
+        
+              .contentAEBTON{
+                bottom: 0;
+                background: rgba(255, 0, 0, 0);
+                height: 670px;
+                padding: 20px;
+                text-align: center;
+                font-size: xx-large;
+        
+            }
+            #moreAE:hover {
+                color: #331d7f;
+                background-color: #ffffff;
+
+              } 
+
+/* ============================================================================= */
+
+.containerP{            /* Partners */
+    height: 30vh;  
+    margin-top: 10px; 
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+    }
+    .Pcontent1 , .Pcontent2 , .Pcontent3 , .Pcontent4{
+        width: 17vw;
+        height: 30vh;
+        background-color: #ffffff;
+        text-align: center;
+        border-radius: 10px;
+        
+        }
+
+        .activity{
+        }
+        .imggg{
+            width: 30pc;
+            display: flex;
+            flex-flow:row wrap ;
+            justify-content: center;
+            align-items: center;
+        }
+/* ============================================================================= */
+
+.subscontainer{            /* Partners */
+background-color: rgb(39, 222, 179); 
+height: 15vh;  
+padding: 10px;
+gap: 30px;
+display: flex;
+justify-content: center;
+}      
+         
+.subs2 , .subs3 , .subs4{
+width: 17vw;
+height: 5vh;
+background-color: #ffffff;
+text-align: center;
+border-radius: 3px;  
+color: #007587;               
+}
+.subs1 {
+    width: 17vw;
+    height: 5vh;
+    background-color: #486d9a00;
+    text-align: center;
+    border-radius: 10px; 
+}
+
+.h1sub{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 80px;
+
+}
+
+.contentsubBTON{
+    bottom: 0;
+    background: rgba(255, 0, 0, 0);
+    height: 670px;
+    padding: 20px;
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 80px;
+}
+        
+.footer {
+  background-color: rgb(78 55 151);
+  color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 150px; 
+}
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer {
+  background-color: rgb(78 55 151);
+  height: 55vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.logofooter {
+  width: 24vw;
+  height: 40vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: end;
+  align-items: center;
+}
+.logo-tu {
+  width: 65%;
+}
+.footers {
+  width: 35vw;
+  height: 40vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.foo {
+  width: 25vw;
+  height: 5vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.fooo {
+  width: 25vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+train,pri{
+  color: white;
+  font-size: 16px;
+}
+.logofooter2 {
+  width: 15vw;
+  height: 40vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  align-items: center;
+}
+.logofooter3 {
+  width: 18vw;
+  height: 40vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: end;
+  align-items: center;
+}
+.so {
+  width: 95%;
+}
+.copyr {
+  background-color: #4e3797;
+  height: 7vh;
+  width: 100vw;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}

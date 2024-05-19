@@ -1,0 +1,32 @@
+.Introduction{
+    border: 1px solid   red;
+    display: grid;
+    justify-content: center;
+    border: 1px solid  rgb(143 101 244);
+    border-radius: 1.5rem;
+}
+.Certifications{
+    border: 1px solid   blue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    font-weight: 700;
+    color: rgb(30 30 30);
+}
+ul{
+    list-style: none;
+    display: grid;
+}
+.lists{
+    list-style: none;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        font-size: 1rem;
+        font-weight: 700;
+        color: rgb(30 30 30);
+        gap: 4rem;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+}

@@ -1,0 +1,287 @@
+@font-face {
+    font-family:"Next-Arabic";
+    src: url("C:\Users\HP\Desktop\Tuwaiq\DINNextLTArabic-Regular-2.ttf") format("ttf"),
+  }
+*{
+    font-family: "Next-Arabic";
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+.container {
+    width: 100vw;
+    height: 28vh;
+    margin: auto;
+    overflow: hidden;
+    background: rgb(78, 55, 151);
+    padding-top: 0;
+}
+header {
+    background: rgb(78, 55, 151);
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+.logo {
+    max-width:min-content;
+    height: 3rem;
+    padding-right: 0;
+}
+.Title-Start {
+    text-align: right;
+    font-weight: 400;
+    font-family: 'Next Arabic';
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    padding-bottom: 2.5rem;
+    padding-right: 8rem;
+}
+.TitleStart{
+    display: flex;
+    justify-content: flex-end;
+    padding-top:0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navbar-left {
+    display: flex;
+    gap: 1em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+.navbar-left a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    padding-left: 2rem;
+}
+.navbar-right {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3em;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: Next, cursive;
+    margin: 0;
+}
+.nav-list li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-list li a .logo {
+    height: 5rem;
+    max-width: 100%;
+    margin-right: 40px;
+}
+.TestCenter{
+    width: 100vi;
+    height: 30vi;
+    background-image: url(test-bg.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.section{
+    display: flex;
+    flex-flow: row wrap;
+}
+.introduction{
+    display: grid;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    margin-bottom: 10px;
+    margin-right: 7%;
+    gap:1.75rem;
+    margin-top: -5rem;
+}
+.intro1{
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: rgb(30 30 30);
+}
+.intro2{
+    margin:0;
+    font-size: 1.50rem;
+    font-weight: 700;
+    font-family:"Next-Arabic";
+    color:rgb(30 30 30);
+    margin-bottom: 2rem;
+}
+.CE{
+    display: grid;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 7%;
+    padding: 0;
+    gap:1.75rem;
+
+}
+.pearson{
+    margin: 0;
+}
+.pearson img{
+    width: 250px;
+    height: auto;
+    margin-top: -12rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    display: flex;
+    justify-content:flex-end;
+}
+section{
+    display: grid;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Certificates{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 700;
+    color: rgb(30 30 30);
+    gap:1.75rem;
+}
+.lists{
+        list-style: none;
+        display: flex;
+        justify-content: flex-start; 
+        align-items: center; 
+        font-size: 1rem;
+        font-weight: 700;
+        color: rgb(30 30 30);
+        gap: 4rem;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+} 
+span{
+    display: flex;
+    width: 2.5rem;
+    padding-top: 1.25rem;
+    background-color: rgb(78 55 151);
+    margin-bottom:1rem;
+}
+.lastsection{
+    display: grid;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 7%;
+    margin-top: 10px;
+}
+.CW {
+    text-align: start;
+    margin-bottom: 20px;
+}
+.las-sec{
+    display: grid;
+    justify-content: center;
+    border: 1px solid  rgb(143 101 244);
+    border-radius: 1.5rem;
+}
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    gap: 3.5rem;
+}
+.image img {
+    max-width: 150px;
+    max-height: 100px;
+    object-fit: contain;
+    padding: 5px;
+}
+.footer {
+    background-color: rgb(78 55 151);
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 150px; 
+}
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.LOGO-CY {
+    text-align: center;
+    margin-top: 20px;
+}
+.LOGO-CY img {
+    width: 150px;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links li img {
+    width: 24px;
+    height: 24px;
+}
+.TuwaiqAcademy{
+    font-size: 1rem;
+}
